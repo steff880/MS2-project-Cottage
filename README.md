@@ -58,6 +58,42 @@
 
 -   ### Wireframes
 
+    -   #### Mobile:
+
+        1. [Home](https://github.com/steff880/MS2-project-Cottage/blob/master/assets/wireframes/mobile/ms2-mobile-home-wireframes.png)
+
+        2. [About](https://github.com/steff880/MS2-project-Cottage/blob/master/assets/wireframes/mobile/ms2-mobile-about-wireframes.png)
+
+        3. [Cottages](https://github.com/steff880/MS2-project-Cottage/blob/master/assets/wireframes/mobile/ms2-mobile-cottages-wireframes.png)
+
+        4. [Book Now](https://github.com/steff880/MS2-project-Cottage/blob/master/assets/wireframes/mobile/ms2-mobile-book-now-wireframes.png)
+
+        5. [Contact](https://github.com/steff880/MS2-project-Cottage/blob/master/assets/wireframes/mobile/ms2-mobile-contact-wireframes.png)
+
+    -   #### Tablet:
+
+        1. [Home](https://github.com/steff880/MS2-project-Cottage/blob/master/assets/wireframes/tablet/ms2-tablet-home-wireframes.png)
+
+        2. [About](https://github.com/steff880/MS2-project-Cottage/blob/master/assets/wireframes/tablet/ms2-tablet-about-wireframes.png)
+
+        3. [Cottages](https://github.com/steff880/MS2-project-Cottage/blob/master/assets/wireframes/tablet/ms2-tablet-cottages-wireframes.png)
+
+        4. [Book Now](https://github.com/steff880/MS2-project-Cottage/blob/master/assets/wireframes/tablet/ms2-tablet-book-now-wireframes.png)
+
+        5. [Contact](https://github.com/steff880/MS2-project-Cottage/blob/master/assets/wireframes/tablet/ms2-tablet-contact-wireframes.png)
+
+    -   #### Desktop:
+
+        1. [Home](https://github.com/steff880/MS2-project-Cottage/blob/master/assets/wireframes/desktop/ms2-desktop-home-wireframes.png)
+
+        2. [About](https://github.com/steff880/MS2-project-Cottage/blob/master/assets/wireframes/desktop/ms2-desktop-about-wireframes.png)
+
+        3. [Cottages](https://github.com/steff880/MS2-project-Cottage/blob/master/assets/wireframes/desktop/ms2-desktop-cottages-wireframes.png)
+
+        4. [Book Now](https://github.com/steff880/MS2-project-Cottage/blob/master/assets/wireframes/desktop/ms2-desktop-book-now-wireframes.png)
+
+        5. [Contact](https://github.com/steff880/MS2-project-Cottage/blob/master/assets/wireframes/desktop/ms2-desktop-contact-wireframes.png)
+
 ---
 
 ## Features
