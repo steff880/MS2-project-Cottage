@@ -6,6 +6,18 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation */
+
+/* Navigation End */
+
+/* Home */
+
 .container-home {
     background: url(../images/home-background.jpg) no-repeat bottom right fixed;
     -webkit-background-size: cover;
@@ -13,5 +25,47 @@
     -o-background-size: cover;
     background-size: cover;
     height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    z-index: 1;
 }   
 
+.container-home .jumbotron {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 90%;
+    margin-left: 25px;
+}
+
+.jumbotron .jumbo-heading,.lead {
+    color: #fff;
+}
+
+.jumbotron .btn-home {
+    background-color: #000;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    color: #fff;
+    margin-top: 30px;
+    font-family: 'Montserat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: 15ms;
+}
+
+.jumbotron .btn-home:hover,
+.jumbotron .btn-home:active,
+.jumbotron .btn-home:focus {
+    outline: 4px solid #bec9e4;
+    color: #fff;
+}
+
+/* Block divider */
+
+.container-home .block-divider {
+    background-color: orange;
+}
+
+
+/* Home End */
