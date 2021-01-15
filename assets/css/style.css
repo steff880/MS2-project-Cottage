@@ -82,4 +82,40 @@ body {
 }
 
 
+/* Footer - Social links */
+
+.footer-home .social-links {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-left: 30px;
+    height: 100px;
+    width: 15%;
+    background-color: transparent;
+    padding-top: 35px;
+    transition: width 1s;
+    z-index: 7;
+}
+
+.footer-home .social-links:hover, 
+.footer-home .social-links:active 
+.footer-home .social-links:focus {
+    width: 40%;
+} 
+
+
+
+.footer-home .social-links i {
+    font-size: 25px;
+    color: #fff;
+    padding-right: 10px;
+}
+
+
+
+/* Footer End */
+
 /* Home End */
