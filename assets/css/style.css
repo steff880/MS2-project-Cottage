@@ -13,6 +13,18 @@ body {
 }
 
 /* Navigation */
+    .bg-dark {
+        background-color: #2f3645 !important;
+    }
+
+    .navbar-brand {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
 
 /* Navigation End */
 
@@ -33,13 +45,15 @@ body {
 }   
 
 .container-home .jumbotron {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.247);
     height: 90%;
     margin-left: 25px;
 }
 
-.jumbotron .jumbo-heading,.lead {
+.jumbotron .jumbo-heading,
+.lead {
     color: #fff;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .jumbotron .btn-home {
@@ -48,7 +62,7 @@ body {
     border-radius: 0px;
     color: #fff;
     margin-top: 30px;
-    font-family: 'Montserat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     letter-spacing: 2px;
     transition: 15ms;
