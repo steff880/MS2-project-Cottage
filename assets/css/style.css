@@ -128,3 +128,20 @@ body {
 /* Footer End */
 
 /* Home End */
+
+
+/* About */
+
+.container-about {
+     background: url(../images/about-image.jpg) no-repeat 30% 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* About End */
