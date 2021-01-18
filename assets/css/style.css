@@ -144,4 +144,11 @@ body {
     align-items: center;
 }
 
+.container-about .about-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5em;
+    color: #ffd8c6;
+    letter-spacing: 2px;
+}
+
 /* About End */
