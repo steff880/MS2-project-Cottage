@@ -110,6 +110,29 @@
 
 ---
 
+## Bugs and Fixes
+
+-   ### Bug
+
+1. Issue with height on element with class "container-about-content", where it's child element was overflowing.
+    In result the background-color aplied did not cover the child element.
+
+-   ### Fix
+
+1.  Add the code:
+        
+         html{
+             height: 100%;
+        } 
+
+        body {
+            min-height: 100vh;
+        }
+
+        .container-about-content {
+            min-height: 50vh;
+        }
+
 ## Testing
 
 ### Testing User Stories
