@@ -57,6 +57,8 @@ body {
     z-index: 1;
 }   
 
+/* Jumbotron */
+
 .container-home .jumbotron {
     background-color: rgba(0, 0, 0, 0.247);
     height: 90%;
@@ -88,6 +90,8 @@ body {
     color: #fff;
 }
 
+/* Jumbotron End */
+
 /* Block divider */
 
 .container-home .block-divider {
@@ -95,7 +99,7 @@ body {
 }
 
 
-/* Footer - Social links */
+/* Footer Home - Social links */
 
 .footer-home .social-links {
     position: absolute;
@@ -128,7 +132,6 @@ body {
 }
 
 
-
 /* Footer End */
 
 /* Home End */
@@ -158,7 +161,7 @@ body {
 .container-about-content {
     width: 100%;
     min-height: 50vh;
-    background-color: #d2c9c954;
+    background-color: #ad65129e;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,24 +215,43 @@ body {
     right: 35px;
     border: 1px solid #4a505b;
     border-radius: 50%;
-    background-color: #d2c9c9;
+    background-color: #ad65125c;
     box-shadow: inset 0px 0px 5px 2px #000000cf;
 }
 
-/* .container-about-content .text-about-wrapper .text-about::after {
-    content: '';
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 5px;
-    left: 35px;
-    border: 1px solid #2b2827ad;
-    border-radius: 50%;
-    background-color: #d2c9c954;
-    box-shadow: inset 0px 0px 4px 3px #00000085;
-} */
-
-
 
 /* About End */
+
+/* Footer About - social links */
+
+.footer-about {
+    background-color: #ad65129e;
+    width: 100%;
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-about .social-links-about {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-about .social-links-about i {
+    font-size: 28px;
+    color: #000;
+    transition: 300ms;
+}
+
+.footer-about .social-links-about i:hover {
+    color: #fff;
+}
+
+
+
+
+/* Footer End */
 
