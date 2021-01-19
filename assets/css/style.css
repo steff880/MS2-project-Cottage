@@ -187,7 +187,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     box-shadow: 0px -1px 70px 22px #797979;
-
+    position: relative;
 }
 
 .container-about-content .text-about-wrapper .text-about {
@@ -195,14 +195,39 @@ body {
     font-family: "Montserrat", sans-serif;
     line-height: 35px;
     margin-bottom: 0;
-    padding: 20px;
+    padding: 35px 20px;
     border: 1px solid #807d7a;
     border-radius: 50px;
     background-color: #d6cac3;
     color: #353535;
-    box-shadow: inset 0px 0px 12px 11px #2f2f2fb5;
-
+    box-shadow: 0px 0px 12px 11px #2f2f2fb5;
 }
+
+.container-about-content .text-about-wrapper .text-about::before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    right: 35px;
+    border: 1px solid #4a505b;
+    border-radius: 50%;
+    background-color: #d2c9c9;
+    box-shadow: inset 0px 0px 5px 2px #000000cf;
+}
+
+/* .container-about-content .text-about-wrapper .text-about::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    left: 35px;
+    border: 1px solid #2b2827ad;
+    border-radius: 50%;
+    background-color: #d2c9c954;
+    box-shadow: inset 0px 0px 4px 3px #00000085;
+} */
 
 
 
