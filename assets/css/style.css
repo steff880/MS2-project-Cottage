@@ -255,3 +255,45 @@ body {
 
 /* Footer End */
 
+/* Cottages */
+
+.cottages-container {
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cottages-container .cottages-heading-container {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.cottages-container .cottages-heading {
+    font-size: 3.5em;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    background-color: grey;
+}
+
+.cottages-container .section-cottages {
+    width: 100%;
+    height: auto;
+}
+
+
+ 
+ .cottages-container .section-cottages .card-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+} 
+
+
+
+
+
+/* Cottages End */
+
