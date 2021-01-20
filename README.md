@@ -117,6 +117,8 @@
 1. Issue with height on element with class "container-about-content", where it's child element was overflowing.
     In result the background-color aplied did not cover the child element.
 
+2. Issue with the width of the cards on Cottages page because of inline styling which came with bootsrap code.   
+
 -   ### Fix
 
 1.  Add the code:
@@ -132,6 +134,8 @@
         .container-about-content {
             min-height: 50vh;
         }
+
+2.  Remove the inline styling and add custom one.        
 
 ## Testing
 
