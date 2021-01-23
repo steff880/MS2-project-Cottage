@@ -259,10 +259,11 @@ body {
 
 .cottages-container {
     width: 100%;
-    min-height: 100vh;
+    min-height: 60vh;
     margin-top: 40px;
     display: flex;
     justify-content: center;
+    padding-bottom: 25px;
 
 }
 
@@ -287,8 +288,6 @@ body {
 
  /* Used code from this tutorial https://www.youtube.com/watch?v=TN4DoHiWrQQ for the cards bellow and modified it to fit project needs */
  .cottages-container .section-cottages .card-row {
-    min-height: 80vh;
-
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -403,7 +402,35 @@ body {
 }
 
 
+.carousel-container .section-carousel .btn-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #cbd5ee85;
+    padding: 15px 0;
+    margin-bottom: 20px;
+}
 
+.carousel-container .section-carousel .btn-bookNow {
+    border: 1px solid black;
+    border-radius: 0;
+    outline: 1px solid black;
+    outline-offset: -1px;
+    transition: outline-offset 90ms ease, background-color linear 500ms;
+
+}
+
+.carousel-container .section-carousel .btn-bookNow:hover,
+.carousel-container .section-carousel .btn-bookNow:focus,
+.carousel-container .section-carousel .btn-bookNow:active {
+    outline-offset: 3px;
+    background: rgb(185 185 189);
+    box-shadow: none;
+    border-left-width: 3px;
+    border-left-color: #b9b9bd;
+    border-right-width: 3px;
+    border-right-color: #b9b9bd;
+}
 
 
 
