@@ -376,6 +376,32 @@ body {
 
 /* Cards End */
 
+/* Carousel */
+
+
+
+/* Carousel End */
+
+
+.carousel-container{
+    width: 100%;
+    min-height: 100vh;
+}    
+
+.carousel-container .section-carousel {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-container .section-carousel .carousel-heading {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.carousel-container .section-carousel .carousel-heading-box {
+    background-color: rgb(177, 170, 170);
+    padding: 20px 0;
+}
+
 
 
 
