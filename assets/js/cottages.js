@@ -16,3 +16,33 @@ function initMap() {
 }
 
 // Map End
+
+
+// Show and hide Carousel
+
+function showAndHide(event) {
+    let triggerObject = event.srcElement;
+
+    let btnOne = document.getElementById('btn-card-one');
+
+    let btnTwo = document.getElementById("btn-card-two");
+
+    let firstCarousel = document.getElementById("first-carousel");
+
+    let secondCarousel = document.getElementById("second-carousel");
+
+    if (triggerObject === btnOne) {
+        firstCarousel.style.display = "block";
+        secondCarousel.style.display = "none";
+    } else if (triggerObject === btnTwo) {
+        secondCarousel.style.display = "block";
+        firstCarousel.style.display = "none";
+    } else {
+        secondCarousel.style.display = "none";
+        firstCarousel.style.display = "none";
+    }
+
+}
+
+
+// Show and hide Carousel

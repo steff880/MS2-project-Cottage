@@ -383,6 +383,9 @@ body {
     width: 100%;
     min-height: 60vh;
     background-color: #e1e7f5;
+    display: none;
+    padding-top: 20px;
+    transition: height 100ms linear;
 }    
 
 .carousel-container .section-carousel {
