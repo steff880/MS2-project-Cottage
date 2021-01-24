@@ -264,19 +264,21 @@ body {
     display: flex;
     justify-content: center;
     padding-bottom: 25px;
+    background-color: #e1e7f5;
 
 }
 
 .cottages-container .cottages-heading-container {
     margin-top: 20px;
     margin-bottom: 15px;
+    background-color: #e1e7f5;
 }
 
 .cottages-container .cottages-heading {
     font-size: 3.5em;
     font-family: 'Montserrat', sans-serif;
     margin-top: 15px;
-    background-color: grey;
+    font-weight: 400;
 }
 
 .cottages-container .section-cottages {
@@ -384,7 +386,8 @@ body {
 
 .carousel-container{
     width: 100%;
-    min-height: 100vh;
+    min-height: 60vh;
+    background-color: #e1e7f5;
 }    
 
 .carousel-container .section-carousel {
@@ -392,21 +395,23 @@ body {
     height: auto;
 }
 
+.carousel-container .section-carousel .carousel-heading-box {
+    background-color: #e1e7f5;
+    padding: 20px 0;
+}
+
 .carousel-container .section-carousel .carousel-heading {
     font-family: 'Montserrat', sans-serif;
 }
 
-.carousel-container .section-carousel .carousel-heading-box {
-    background-color: rgb(177, 170, 170);
-    padding: 20px 0;
-}
+
 
 
 .carousel-container .section-carousel .btn-box {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: #cbd5ee85;
+    background-color: #e1e7f5;
     padding: 15px 0;
     margin-bottom: 20px;
 }
