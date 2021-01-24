@@ -443,3 +443,21 @@ body {
 
 /* Cottages End */
 
+
+/* Map */
+
+.container-map {
+    width: 100%;
+    min-height: 30vh;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container-map .row {
+    justify-content: center;
+}
+
+.container-map #map {
+    min-height: 360px;
+}
+/* Map End */
