@@ -105,8 +105,26 @@
 
 ### Languages Used
 
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/CSS)
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
 ### Frameworks, Libraries & Programs Used
 
+1. [Bootstrap v4.5.3:](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the "Lato" font into the style.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used to add icons to the site.
+1. [jQuery:](https://jquery.com/)
+    - jQuery came with Bootstrap
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the project's code after being pushed from Git.
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the [Wireframes](#wireframes) during the design process.
 
 ---
 
