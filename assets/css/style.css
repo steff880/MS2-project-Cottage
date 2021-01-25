@@ -452,9 +452,13 @@ body {
 .container-map {
     width: 100%;
     min-height: 30vh;
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 30px;
     background-color: #faf7e8;
+}
+
+.container-map .map-section {
+    padding-bottom: 30px;
 }
 
 .container-map .row {
@@ -473,3 +477,12 @@ body {
 }
 
 /* Map End */
+
+/* Footer Cottages */
+
+#footer-cottages {
+    background: linear-gradient(45deg, #403d3d, #e1e7f5);
+}
+
+
+/* Footer Cottages End */
