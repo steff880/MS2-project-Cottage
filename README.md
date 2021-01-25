@@ -1,7 +1,9 @@
 
+<h1 align="center">Cozy Cottage</h1>
 
+This is a website, where users can book a Cottage.
 
-
+Site's purpose is to help users book their next holiday and enjoy their time off, at a nice and warm Cottage.
 
 
 ## UX
