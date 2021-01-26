@@ -141,6 +141,8 @@ Site's purpose is to help users book their next holiday and enjoy their time off
 
 3. Issue with social links on Home page. On mobile view icons align on the left and did not look the same as on larger screens.
 
+4. Issue with image on the cards of Cottages page. Image being streched when viewed on Iphone 5SE.
+
 -   ### Fix
 
 1.  Add the code:
@@ -161,6 +163,8 @@ Site's purpose is to help users book their next holiday and enjoy their time off
 
 3. Fixed issue by positioning the icons at the bottom center of the page instead of left. To achieve this adedd properties to the parent element
      and amended the properties of the child element.
+
+4. Fix issue by removing "margin: 0 auto;" from class **_card-row_** and reducing the padding of **_cottages-container_** from 15px to 10px.    
 ## Testing
 
 ### Testing User Stories
