@@ -493,3 +493,19 @@ body {
 
 
 /* Footer Cottages End */
+
+/* Book Now  */
+
+.container-book-now {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-book-now .containe-bookNow-heading {
+    width: 100%;
+}
+
+/* Book Now end */
