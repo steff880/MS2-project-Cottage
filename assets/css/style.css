@@ -101,26 +101,32 @@ body {
 
 /* Footer Home - Social links */
 
-.footer-home .social-links {
+.footer-home {
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 7;
+    background-color: transparent;
     position: absolute;
-    bottom: 50px;
-    left: 20px;
+    bottom: 40px;
+}
+
+.footer-home .social-links {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    margin-left: 30px;
-    height: 100px;
-    width: 15%;
+    width: 50%;
+    height: auto;
     background-color: transparent;
-    padding-top: 35px;
     transition: width 1s;
-    z-index: 7;
 }
 
 .footer-home .social-links:hover, 
 .footer-home .social-links:active 
 .footer-home .social-links:focus {
-    width: 40%;
+    width: 70%;
 } 
 
 

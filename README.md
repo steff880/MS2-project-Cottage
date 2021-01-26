@@ -137,7 +137,9 @@ Site's purpose is to help users book their next holiday and enjoy their time off
 1. Issue with height on element with class "container-about-content", where it's child element was overflowing.
     In result the background-color aplied did not cover the child element.
 
-2. Issue with the width of the cards on Cottages page because of inline styling which came with bootsrap code.   
+2. Issue with the width of the cards on Cottages page because of inline styling which came with bootsrap code.
+
+3. Issue with social links on Home page. On mobile view icons align on the left and did not look the same as on larger screens.
 
 -   ### Fix
 
@@ -157,6 +159,8 @@ Site's purpose is to help users book their next holiday and enjoy their time off
 
 2.  Remove the inline styling and add custom one.        
 
+3. Fixed issue by positioning the icons at the bottom center of the page instead of left. To achieve this adedd properties to the parent element
+     and amended the properties of the child element.
 ## Testing
 
 ### Testing User Stories
