@@ -52,15 +52,54 @@
     <!-- Nvigation End -->
 
     <div class="container-fluid container-book-now">
-        <div class="row container-bookNow-heading">
-            <div class="col-12">
-                <h2 class="book-now-heading text-center">Book Now</h2>
-            </div>
-        </div>
         <section class="section-book-now">
-            <div class="row">
-                <div class="col">
-
+            <div class="row book-now-heading-container">
+                <div class="col-12">
+                    <h2 class="book-now-heading text-center">Book Now</h2>
+                </div>
+            </div>
+            <div class="row form-container">
+                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-6 col-xl-6">
+                    <form>
+                        <div class="form-group">
+                            <input class="form-control mb-4" type="text" id="fname" placeholder="First Name">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control mb-4" type="text" id="lname" placeholder="Last Name">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control mb-4" type="text" id="email" placeholder="Email Address">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control mb-4" type="text" id="" placeholder="Last Name">
+                        </div>
+                        <div class="form-group">
+                            <label for=""></label>
+                            <select class="form-control mb-4">
+                                <option value="" disabled selected hidden>Number of nights you wish to stay</option>
+                                <option value="1 night">One night</option>
+                                <option value="2 nights">Two nights</option>
+                                <option value="3 nights">Three nights</option>
+                                <option value="4 nights">Four nights</option>
+                                <option value="5 nights">Five nights</option>
+                                <option value="6 nights">Six nights</option>
+                                <option value="7 nights">Seven nights</option>
+                                <option value="more">More</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="start-date">Please choose start date</label>
+                            <input class="form-control mb-4" type="date" id="start-date">
+                        </div>
+                        <div class="form-group">
+                            <label for="end-date">Please choose end date</label>
+                            <input class="form-control" type="date" id="end-date">
+                        </div>
+                        <div class="form-group">
+                            <label for="text-area">Anything else you wish to add?</label>
+                            <textarea class="form-control" id="text-area" rows="5"></textarea>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
