@@ -528,6 +528,7 @@ body {
     font-size: 2.5em;
     padding-top: 15px;
     font-weight: 400;
+    color: #fff;
 }
 
 .container-book-now .section-book-now .form-container {
@@ -540,13 +541,29 @@ body {
 
 .container-book-now .section-book-now .form-container .bookNow-form {
     padding: 10px;
-    border: 1px solid #00000082;
+    border: 1px solid #0000002e;
     border-radius: 15px;
     box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
     background-color: #0e1c1c96;
 
 }
 
+.container-book-now .section-book-now .form-container .bookNow-form .form-group-bg {
+    background-color: #a6abab;
+}
+
+.container-book-now .section-book-now .form-container .bookNow-form .custom-control {
+    color: #fff;
+}
+
+.container-book-now .section-book-now .form-container .bookNow-form .form-control {
+    color: #fff;
+    background-color: #ffffff54;
+}
+
+.container-book-now .section-book-now .form-container .bookNow-form .form-group .label-color {
+    color: #fff;
+}
 
 /* Book Now end */
 
