@@ -498,14 +498,37 @@ body {
 
 .container-book-now {
     width: 100%;
-    min-height: 50vh;
+    min-height: 100vh;
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container-book-now .containe-bookNow-heading {
+.container-book-now .section-book-now {
+    width: 100%;
+    height: auto;
+}
+
+.container-book-now .section-book-now .book-now-heading-container {
+    padding-top: 50px;
     width: 100%;
 }
+
+.container-book-now .section-book-now .book-now-heading-container .book-now-heading {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-size: 2.5em;
+    padding-top: 15px;
+    font-weight: 400;
+}
+
+.container-book-now .section-book-now .form-container {
+    justify-content: center;
+    align-items: center;
+    min-height: 80%;
+    padding-top: 50px;
+}
+
 
 /* Book Now end */
