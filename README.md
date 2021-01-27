@@ -164,7 +164,10 @@ Site's purpose is to help users book their next holiday and enjoy their time off
 3. Fixed issue by positioning the icons at the bottom center of the page instead of left. To achieve this adedd properties to the parent element
      and amended the properties of the child element.
 
-4. Fix issue by removing "margin: 0 auto;" from class **_card-row_** and reducing the padding of **_cottages-container_** from 15px to 10px.    
+4. Fix issue by removing "_margin: 0 auto;_" from class **_card-row_** and add "_margin-left and margin-right -10px_" to the same class and to the 
+    **_cottages-heading-container_**, also reduce the padding of **_cottages-container_** from 15px to 10px. 
+    Also add media qiery for xs devices and change the "_height_" of the class **_card-cottages_** form 650px to 600px.
+    Please note that the orientation of the images on the cards is **Portrait** not **Landscape** ! 
 ## Testing
 
 ### Testing User Stories
