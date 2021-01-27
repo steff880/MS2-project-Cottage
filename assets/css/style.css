@@ -507,6 +507,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(../images/book-now.jpg) no-repeat center right;
+    background-size: cover;
 }
 
 .container-book-now .section-book-now {
@@ -517,6 +519,7 @@ body {
 .container-book-now .section-book-now .book-now-heading-container {
     padding-top: 50px;
     width: 100%;
+    margin: 0 auto;
 }
 
 .container-book-now .section-book-now .book-now-heading-container .book-now-heading {
@@ -532,6 +535,16 @@ body {
     align-items: center;
     min-height: 80%;
     padding-top: 50px;
+    padding-bottom: 30px ;
+}
+
+.container-book-now .section-book-now .form-container .bookNow-form {
+    padding: 10px;
+    border: 1px solid #00000082;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    background-color: #0e1c1c96;
+
 }
 
 
