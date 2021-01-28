@@ -589,6 +589,48 @@ body {
     width: 40%;
 }
 
+/* Form Validation */
+
+#form-bookNow .email-box {
+    position: relative;
+}
+
+#text-message {
+    display: block;
+    font-weight: 300;
+    font-style: italic;
+    padding-left: 5px;
+    color: #000;
+}
+
+#form-bookNow.invalid .email-box::before {
+    content: '';
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    width: 24px;
+    height: 24px;
+    background: url(../images/invalid.png);
+    background-size: cover;
+    z-index: 10;
+}
+
+#form-bookNow.valid .email-box::before {
+    content: '';
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    width: 24px;
+    height: 24px;
+    background: url(../images/valid.png);
+    background-size: cover;
+    z-index: 10;
+}
+
+/* Form Validation End */
+
+/* Form End */
+
 /* Book Now end */
 
 /* Footer Book Now */
