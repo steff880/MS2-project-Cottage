@@ -44,14 +44,18 @@ document.getElementById('form-bookNow').addEventListener('submit', function (e) 
 
     let form = document.getElementById('form-bookNow');
     let alertMessage = document.getElementById('alert-message');
+    let btnReset = document.getElementById('btnReset');
 
     if (form.checkValidity()) {
         alertMessage.classList.add('alert', 'alert-success');
         alertMessage.innerHTML = "Your Booking is Successful";
         alertMessage.style.display = "block";
+        btnReset.classList.remove("btn-reset-hide");
+
     } else {
         alertMessage.innerHTML = "";
     }
+
 
     setTimeout(function () {
         alertMessage.classList.remove("alert", "alert-success")

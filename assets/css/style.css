@@ -577,6 +577,8 @@ body {
     color: #fff;
 }
 
+/* Button Book Now */
+
 .container-book-now .section-book-now .form-container .bookNow-form .btn-box .btn-bookNow {
     background-color: #fff;
     border-radius: 0;
@@ -589,6 +591,21 @@ body {
     width: 40%;
 }
 
+/* Button Book Now End */
+
+/* Button Reset */
+
+.container-book-now .section-book-now .form-container .bookNow-form .btn-box .btn-reset {
+    width: 150px;
+    border-radius: 0;
+}
+
+.container-book-now .section-book-now .form-container .bookNow-form .btn-box .btn-reset-hide {
+    display: none;
+}
+
+
+/* Button Reset End */
 /* Form Validation */
 
 #form-bookNow .email-box {
