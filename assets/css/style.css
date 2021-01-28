@@ -531,6 +531,8 @@ body {
     color: #fff;
 }
 
+/* Form */
+
 .container-book-now .section-book-now .form-container {
     justify-content: center;
     align-items: center;
@@ -549,7 +551,11 @@ body {
 }
 
 .container-book-now .section-book-now .form-container .bookNow-form .form-group-bg {
-    background-color: #a6abab;
+    background-color: #d0d0d0e6;
+}
+
+.container-book-now .section-book-now .form-container .bookNow-form .form-group .input-color {
+    color: #000;
 }
 
 .container-book-now .section-book-now .form-container .bookNow-form .custom-control {
@@ -561,8 +567,27 @@ body {
     background-color: #ffffff54;
 }
 
+
+.container-book-now .section-book-now .form-container .bookNow-form .form-control .option-color {
+    color: black;
+}
+
+
 .container-book-now .section-book-now .form-container .bookNow-form .form-group .label-color {
     color: #fff;
+}
+
+.container-book-now .section-book-now .form-container .bookNow-form .btn-box .btn-bookNow {
+    background-color: #fff;
+    border-radius: 0;
+    width: 150px;
+    transition: width 1s cubic-bezier(0.51, 1.12, 0.54, -0.09), background-color 3s ease;
+} 
+
+.container-book-now .section-book-now .form-container .bookNow-form .btn-box .btn-bookNow:hover,
+.container-book-now .section-book-now .form-container .bookNow-form .btn-box .btn-bookNow:focus {
+    background-color: rgba(255, 166, 0, 0.692);
+    width: 40%;
 }
 
 /* Book Now end */
