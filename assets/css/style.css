@@ -592,7 +592,14 @@ body {
 
 /* Book Now end */
 
+/* Footer Book Now */
 
+.footer-bookNow .social-links-bookNow i:hover,
+.footer-bookNow .social-links-bookNow i:focus {
+    color: #0097da;
+}
+
+/* Footer Book Now End */
 
 
 
