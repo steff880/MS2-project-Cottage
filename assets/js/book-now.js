@@ -36,3 +36,27 @@ function validation() {
 }
 
 // Email Validation End
+
+// Submit 
+
+document.getElementById('form-bookNow').addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    let form = document.getElementById('form-bookNow');
+    let alertMessage = document.getElementById('alert-message');
+
+    if (form.checkValidity()) {
+        alertMessage.classList.add('alert', 'alert-success');
+        alertMessage.innerHTML = "Your Booking is Successful";
+        alertMessage.style.display = "block";
+    } else {
+        alertMessage.innerHTML = "";
+    }
+
+    setTimeout(function () {
+        alertMessage.classList.remove("alert", "alert-success")
+        alertMessage.innerHTML = "";
+    }, 3000);
+
+});
+

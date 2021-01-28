@@ -62,15 +62,16 @@
                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8 col-xl-5">
                     <form id="form-bookNow" class="bookNow-form">
                         <div class="form-group form-group-bg">
-                            <input class="form-control input-color mb-4" type="text" id="fname"
-                                placeholder="First Name">
+                            <input class="form-control input-color mb-4" type="text" id="fname" placeholder="First Name"
+                                required>
                         </div>
                         <div class="form-group form-group-bg">
-                            <input class="form-control mb-4 input-color" type="text" id="lname" placeholder="Last Name">
+                            <input class="form-control mb-4 input-color" type="text" id="lname" placeholder="Last Name"
+                                required>
                         </div>
                         <div class="form-group form-group-bg email-box">
                             <input class="form-control mb-4 input-color" type="email" id="email"
-                                placeholder="Email Address" onkeydown="validation()">
+                                placeholder="Email Address" required onkeydown="validation()">
                             <span id="text-message"></span>
                         </div>
                         <div class="custom-control custom-checkbox mb-2">
@@ -82,7 +83,7 @@
                             <label class="custom-control-label" for="cottage-two">Choose The Mellow Cottage</label>
                         </div>
                         <div class="form-group">
-                            <select class="form-control mb-4 mt-4">
+                            <select class="form-control mb-4 mt-4" required>
                                 <option class="option-color" value="" disabled selected hidden>Number of nights
                                     to stay</option>
                                 <option class="option-color" value="1 night">One night</option>
@@ -97,18 +98,20 @@
                         </div>
                         <div class="form-group">
                             <label class="label-color" for="start-date">Please choose start date</label>
-                            <input class="form-control mb-4" type="date" id="start-date">
+                            <input class="form-control mb-4" type="date" id="start-date" required>
                         </div>
                         <div class="form-group">
                             <label class="label-color" for="end-date">Please choose end date</label>
-                            <input class="form-control" type="date" id="end-date">
+                            <input class="form-control" type="date" id="end-date" required>
                         </div>
                         <div class="form-group">
                             <label class="label-color" for="text-area">Anything else you wish to add?</label>
                             <textarea class="form-control" id="text-area" rows="5"></textarea>
                         </div>
+                        <span id="alert-message" class="text-center"></span>
                         <div class="text-center btn-box">
-                            <button class="btn btn-lg btn-bookNow" type="submit"> Book Now</button>
+                            <button class="btn btn-lg btn-bookNow" type="submit"> Book
+                                Now</button>
                         </div>
                     </form>
                 </div>
