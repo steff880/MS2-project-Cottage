@@ -710,9 +710,9 @@ body {
 /* Contact */
 
 .container-contact-bg {
-    background: #E6DADA;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #bbb1b1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #274046, #bbb1b1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #274046, #bbb1b1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
@@ -732,6 +732,11 @@ body {
     background: linear-gradient(45deg, #92d475, #00000059);
 }
 
+.contact-heading {
+    font-size: 3em;
+    font-weight: 300;
+}
+
 .contact-heading > span {
     opacity: 0;
     transition: all 1s ease;
@@ -742,8 +747,7 @@ body {
 span.fade-text {
     opacity: 1;
     transform: translateY(0px);
-    color: #146082;
-    letter-spacing: 3px;
+    color: #90bfd4;
 }
 
 /* Contact End */
