@@ -54,7 +54,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     position: relative;
-    z-index: 1;
+    z-index: 0;
 }   
 
 /* Jumbotron */
@@ -98,6 +98,50 @@ body {
     background-color: orange;
 }
 
+/* Home Animation */
+
+/*  Credit: Dev Ed https://www.youtube.com/watch?v=sN93DRYkCO8 - code slightly modified to fit project needs */
+
+.intro {
+    background-color: #070e14;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider {
+    background-color: rgb(198, 214, 240);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    transform: translateY(100%);
+}
+
+.intro-text {
+    color: rgb(227, 242, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+
+.hide {
+    background-color: #070e14;
+    overflow: hidden;
+}
+
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+}
+
+/* Home Animation End */
 
 /* Footer Home - Social links */
 
