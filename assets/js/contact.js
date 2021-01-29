@@ -30,7 +30,9 @@ function complete() {
     clearInterval(timer);
     timer = null;
 }
+// text animation end
 
+// Code below used from Code Institute tutorial on emailjs --> sligly modified to fit project needs
 
 // EmailJS
 function sendMail(contactForm) {
@@ -53,3 +55,13 @@ function sendMail(contactForm) {
             });
     return false;
 }
+// EmailJS end
+
+
+// Form fade in
+
+const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
+
+tl.fromTo("form", { opacity: 0 }, { opacity: 1, duration: 3 });
+
+// Form fade End
