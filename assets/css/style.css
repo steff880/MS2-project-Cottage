@@ -651,7 +651,7 @@ body {
 
 /* Button Reset End */
 /* Form Validation */
-
+/* Used code from this tutorial https://www.youtube.com/watch?v=HzJngc-Se9Q and modified it to fit project needs */
 #form-bookNow .email-box {
     position: relative;
 }
@@ -702,6 +702,19 @@ body {
 }
 
 /* Footer Book Now End */
+
+/* Contact */
+
+.container-contact {
+    background: #E6DADA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+/* Contact End */
 
 
 
