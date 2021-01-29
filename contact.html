@@ -13,6 +13,13 @@
         integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
 
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_3qIubyHyCWCI4TBtxOtFj");
+        })();
+    </script>
 </head>
 
 <body>
@@ -60,7 +67,7 @@
             </div>
             <div class="row form-container">
                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8 col-xl-5">
-                    <form id="form-bookNow" class="bookNow-form contact-form">
+                    <form id="contactForm" class="bookNow-form contact-form" onsubmit="return sendMail(this);">
                         <div class="form-group form-group-bg">
                             <input class="form-control input-color mb-4" type="text" id="fname" placeholder="First Name"
                                 required>
@@ -70,16 +77,17 @@
                                 required>
                         </div>
                         <div class="form-group form-group-bg email-box">
-                            <input class="form-control mb-4 input-color" type="email" id="email"
-                                placeholder="Email Address" required>
+                            <input class="form-control mb-4 input-color" type="email" name="emailaddress"
+                                id="emailaddress" placeholder="Email Address" required>
                         </div>
                         <div class="form-group">
-                            <label class="label-color" for="text-area">Please add your queries bellow!</label>
-                            <textarea class="form-control" id="text-area" rows="5"></textarea>
+                            <label class="label-color" for="message">Please add your queries bellow!</label>
+                            <textarea class="form-control" id="message" rows="5"
+                                placeholder="Write your message here"></textarea>
                         </div>
                         <span id="alert-message" class="text-center"></span>
                         <div class="text-center btn-box">
-                            <button class="btn btn-lg btn-contact" type="submit">Submit</button>
+                            <button id="submitBtn" class="btn btn-lg btn-contact" type="submit">Submit</button>
                         </div>
                         <div class="text-center btn-box mt-4">
                             <button id="btnReset" class="btn btn-lg btn-danger btn-reset" type="reset">Reset</button>

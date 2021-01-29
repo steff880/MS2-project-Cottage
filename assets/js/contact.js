@@ -31,3 +31,25 @@ function complete() {
     timer = null;
 }
 
+
+// EmailJS
+function sendMail(contactForm) {
+    emailjs.send("Stefan", "Stefan-MS2", {
+        "from_fname": contactForm.fname.value,
+        "from_lname": contactForm.lname.value,
+        "from_email": contactForm.emailaddress.value,
+        "request_message": contactForm.message.value
+    })
+        .then(
+            function () {
+                let submitBtn = document.getElementById("submitBtn");
+                submitBtn.innerHTML = "Email Sent!";
+            },
+            function () {
+                let alertMessage = document.getElementById("alert-message");
+                alertMessage.style.display = "block";
+                alertMessage.classList.add("alert", "alert-danger");
+                alertMessage.innerHTML = "Error! Please try again.";
+            });
+    return false;
+}
