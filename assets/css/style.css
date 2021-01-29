@@ -719,6 +719,19 @@ body {
 .container-contact .section-book-now .form-container .contact-form {
     background-color: #0e1c1c05;
 }
+
+/* Contact Button */
+
+.section-contact .contact-form .btn-contact {
+    width: 150px;
+    border: 1px solid #0000004a;
+    background: linear-gradient(45deg, #689255, #0000001f);
+}
+
+.section-contact .contact-form .btn-contact:hover {
+    background: linear-gradient(45deg, #92d475, #00000059);
+}
+
 /* Contact End */
 
 
