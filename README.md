@@ -54,9 +54,17 @@ Site's purpose is to help users book their next holiday and enjoy their time off
 
     -   #### Colour Scheme
 
+        - Main colours used are "Black, White, Orange, Blue"
+
+        - Contact page background from [CSS Gradient](https://cssgradient.io/gradient-backgrounds/)
+
     -   #### Typography
 
+        - The Robboto and Montserrat and the two fonts I have used, with Sans Serif used as a fallback.
+
     -   #### Images
+
+        - Used images from [Unsplash](https://unsplash.com) and [Pexels](https://www.pexels.com) and credited in [Credits](#credits) section.
 
 -   ### Wireframes
 
@@ -128,6 +136,9 @@ Site's purpose is to help users book their next holiday and enjoy their time off
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [Wireframes](#wireframes) during the design process.
 
+1. [Gsap Green Sock](https://greensock.com/gsap/) 
+    - JavaScript animation library used to help with the animations.
+
 ---
 
 ## Bugs and Fixes
@@ -188,3 +199,46 @@ Site's purpose is to help users book their next holiday and enjoy their time off
 
 
 ## Credits
+
+
+### Imges 
+
+- Home
+
+    - [Photo by eberhard grossgasteiger](https://unsplash.com/photos/mWuXdxtesG0)
+
+- About
+
+    - [Remi Antunes](https://unsplash.com/photos/8N7Q_HtAO78)
+
+- Cottages
+
+    - [Bryan Walker](https://unsplash.com/photos/F3eMW1OLC24)
+
+    - [Brad Pearson](https://unsplash.com/photos/rySQ5G6EbgI)
+
+    - [Photo by Vecislavas Popa from Pexels](https://www.pexels.com/photo/cabinet-ceiling-clean-comfort-1669799/)
+
+    - [Photo by Home Decor Interiors from Pexels](https://www.pexels.com/photo/flat-screen-television-1827054/)
+
+    - [Photo by R ARCHITECTURE on Unsplash](https://unsplash.com/photos/TRCJ-87Yoh0)
+
+    - [Photo by Terry Magallanes from Pexels](https://www.pexels.com/photo/four-brown-wooden-chairs-2635038/)
+
+    - [Photo by House Method on Unsplash](https://unsplash.com/photos/CqVHT8g45R8)
+
+    - [Photo by Sidekix Media on Unsplash](https://unsplash.com/photos/mIurtZy_5RE)
+
+    - [Photo by Adam Winger on Unsplash](https://unsplash.com/photos/b87_egH5mos)
+
+    - [Photo by Sidekix Media on Unsplash](https://unsplash.com/photos/f1Rd2HsoKnk)
+
+    - [Photo by Sidekix Media on Unsplash](https://unsplash.com/photos/g51F6-WYzyU)
+
+    - [Photo by Ronnie George on Unsplash](https://unsplash.com/photos/m78oBvRHBm0)
+
+   
+
+- Book Now
+
+    - [Photo by Robson Hatsukami Morgan on Unsplash](https://unsplash.com/photos/5C6veSN6hec)
