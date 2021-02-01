@@ -222,8 +222,40 @@ The website consists of 5 pages. All accessible from navigation menu.
     Also add media qiery for xs devices and change the "_height_" of the class **_card-cottages_** form 650px to 600px.
     Please note that the orientation of the images on the cards is **Portrait** not **Landscape** ! 
 ## Testing
+### W3C Validator Testing
 
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were
+no syntax errors in the project.
+
+[W3C Markup Validator](https://validator.w3.org/)
+
+-   No errors found [View results here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsteff880.github.io%2FMS2-project-Cozy-Cottage%2F)
+
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+- One error found - Property backdrop-filter doesn't exist : blur(14px);. I used this property to add 
+    blurred effect on the cards behind the text. Used in Cottages page. Could not find a way around it.
+- Warnings are either from vandor prefixes or bootsrap.
+
+### [JSHint](https://jshint.com/)
+
+-  Testing home.js: 
+
+    - Result - One warning for _const_ 
+
+-   Testing cottages.js:
+
+    - Result - Eight warnings for _let_
+
+-   Testing book-now.js:
+
+    - Result - Seven warnings for _let_
+
+-   Testing contact.js:
+
+    - Result - Ten warnings for using _const_ and _let_
 ### Testing User Stories
+
 
 -   #### First Time Visitor Goals
 
