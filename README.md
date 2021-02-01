@@ -151,6 +151,14 @@ The website consists of 5 pages. All accessible from navigation menu.
 ### Footer
 
 - Each page has Footer with social links.
+
+
+#### Features Left to Implement 
+
+-   Add Attractions section, where user can find all the Attractions provided and choose to take advantage.
+-   Add Login/Register section.
+-   Add more Cottages with different options.
+-   Add different locations.
 ---
 
 ## Technologies Used
@@ -235,7 +243,7 @@ no syntax errors in the project.
 
 - One error found - Property backdrop-filter doesn't exist : blur(14px);. I used this property to add 
     blurred effect on the cards behind the text. Used in Cottages page. Could not find a way around it.
-- Warnings are either from vandor prefixes or bootsrap.
+- Warnings are either from vendor prefixes or bootstrap.
 
 ### [JSHint](https://jshint.com/)
 
