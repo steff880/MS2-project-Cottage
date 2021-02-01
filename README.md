@@ -110,7 +110,47 @@ Site's purpose is to help users book their next holiday and enjoy their time off
 
 ## Features
 
+The website consists of 5 pages. All accessible from navigation menu.
 
+## Navigation Bar
+
+* Navigation bar is fixed to the top of each page, which gives the user the option to return,
+    or move to another page easily. It will adapt to mobile devices by changing into a burger menu.
+
+* Navigation:
+
+    - On the left there is the site's logo, which can be used to navigate to **Home** page at any moment.
+    - On the right side there are 5 links to each page. If viewed on mobile device, those will drop down,
+        when clicked on burger menu.
+
+### Home page
+
+- User is greeted with welcome animation
+- Has a background image and also greeting text, and a button to navigate to **Cottages** page.
+
+### About
+
+- Has an image and about us information.
+
+### Cottages
+
+- Has two cards with images of cottages, text and button to learn more. 
+    When the user clicks learn more button, there will be displayed more information of the cottages and 
+    also a carousel with images. Under each carousel there is a button which will take the user to Book Now page.
+    Also there is google maps, which helps the user to see where the Cottages are located.
+
+### Book Now
+
+- This pages has a background image and a form where the user can fill in there details and choose 
+    when to visit. Also a book now button.
+
+### Contact
+
+- This page has a form and buttons submit and reset.
+
+### Footer
+
+- Each page has Footer with social links.
 ---
 
 ## Technologies Used
