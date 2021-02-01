@@ -199,6 +199,37 @@ Site's purpose is to help users book their next holiday and enjoy their time off
 
 ## Deployment
 
+### GitHub Pages
+
+-   Following steps were used:
+
+    1. First login to [GitHub](https://github.com/)
+    2. Locate the **Repository** and click on settings.
+    3. Scroll down the settings page till you see GitHub Pages.
+    4. Then under source choose **_master_** branch by clicking the button.
+    5. Click Save and wait for the page to refresh.
+    6. Scroll down again to GitHub pages.
+    7. Find the URL for the site under GitHub pages.
+
+### Fork It
+
+1. Login to [GitHub](https://github.com/)
+2. Locate the **Repository**.
+3. In the top right corner click **_Fork_** button.
+
+### Clone It
+
+1. Login to [GitHub](https://github.com/)
+2. Fork the Repository.
+3. Then click **Code** under the _Settings_ button.
+4. Choose HTTPS, SSH, or GitHub CLI, then click the copy button to the right.
+5. Open Git Bash
+6. Change the directory to the location where you want the cloned directory to be made.
+7. Type _git clone_ and paste the URL you copied before.
+8. To create the clone press _Enter_
+
+---
+
 
 ## Credits
 
