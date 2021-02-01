@@ -189,6 +189,12 @@ The website consists of 5 pages. All accessible from navigation menu.
 1. [Gsap Green Sock](https://greensock.com/gsap/) 
     - JavaScript animation library used to help with the animations.
 
+1. [Autoprefixer](https://autoprefixer.github.io/)    
+    - Adds vendor prefixes.
+
+1. [Grammarly](https://app.grammarly.com/ddocs/1018809008)
+    - Used to help with grammar checks.
+
 ---
 
 ## Bugs and Fixes
@@ -268,10 +274,73 @@ no syntax errors in the project.
 -   #### First Time Visitor Goals
 
 
+
+
 -   #### Returning Visitor Goals
 
 
 -   #### Frequent User Goals
+
+
+### Additional Testing
+
+-   Laptop & Desktop
+
+    -   Chrome
+
+        -   All tested and working fine
+
+    -   Edge
+
+        -   All tested and working fine
+
+    -   Opera
+
+        -   All tested and working fine
+
+    -   Firefox
+
+        -  When tested on Firefox found the following error:
+            
+            - On Cottages page the property backdrop-filter: blur(14px); doesn't work. 
+                Due to this, the background of the card body is not blured. It does not affect readability and still looks good.
+
+    -   Internet Explorer
+
+        -   When tested on this browser found the following errors:
+
+            - Home page:
+
+                - Text is pushed to the left. Also the transition efect on the social links does not work 
+                    propperly.
+
+            -   About page:
+
+                - The layout is broken. Text is squeezed in the middle of the screen. Also the background colour is gone 
+                    and social link are pushed to the left.
+
+            -   Cottages page:
+
+                - Cards are pushed to the left. The card body is squeezed to the right of the card.
+                    Social links pushed to the left.        
+
+            - Book Now page:
+
+                - Form and input background is does not exist. Social links pushed to the left.        
+
+            - Contact page:
+
+                - Form and heading slightly pushed up and social links to the left. Also submit button has no background.
+           
+
+    -   Tested on Chrome using different devices via google chrome device emulators and all works fine.
+    -   Also tested on the following physical mobile devices:
+
+        1.  Samsung Galaxy S9 plus and works fine
+
+        2.  Samsung Galaxy s8 and works fine
+
+        3.  Huawei P30 and works fine
 
 
 ---
