@@ -62,5 +62,6 @@ document.getElementById("form-bookNow").addEventListener("submit", function (e) 
         alertMessage.innerHTML = "";
     }, 3000);
 
+    form.reset();
 });
 

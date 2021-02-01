@@ -53,6 +53,7 @@ function sendMail(contactForm) {
                 alertMessage.classList.add("alert", "alert-danger");
                 alertMessage.innerHTML = "Error! Please try again.";
             });
+    document.getElementById("contactForm").reset();
     return false;
 }
 // EmailJS end
