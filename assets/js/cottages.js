@@ -23,7 +23,7 @@ function initMap() {
 function showAndHide(event) {
     let triggerObject = event.srcElement;
 
-    let btnOne = document.getElementById('btn-card-one');
+    let btnOne = document.getElementById("btn-card-one");
 
     let btnTwo = document.getElementById("btn-card-two");
 
