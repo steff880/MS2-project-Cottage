@@ -692,6 +692,14 @@ body {
     color: #fff;
 }
 
+.container-book-now .section-book-now .book-now-heading-container .book-now-heading {
+    font-weight: 700;
+    color: #FFC107;
+    text-shadow: 0 0 10px black;
+}
+
+
+
 /* Form */
 
 .container-book-now .section-book-now .form-container {
