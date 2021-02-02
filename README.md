@@ -379,6 +379,36 @@ no syntax errors in the project.
     </tr>
 </table>
 
+#### Testing Social Links
+
+<table>
+    <tr>
+        <th>Test</th>
+        <th>Expected Outcome</th>
+        <th>Result</th>
+    </tr>
+    <tr>
+        <td>Facebook</td>
+        <td>When clicked on Facebook, open link in new tab</td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Instagram</td>
+        <td>When clicked on Instagram, open link in new tab</td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Twitter</td>
+        <td>When clicked on Twitter, open link in new tab</td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Pinterest</td>
+        <td>When clicked on Pinterest, open link in new tab</td>
+        <td>Pass</td>
+    </tr>   
+</table>
+
 
 
 
