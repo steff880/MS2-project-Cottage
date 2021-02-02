@@ -7,6 +7,21 @@ This is a website, where users can book a Cottage.
 
 The site's purpose is to help users book their next holiday and enjoy their time off, at a nice and warm Cottage.
 
+## Table of Contents
+
+> - [UX](#ux)
+> - [User Stories](#user-stories)
+> - [Design](#design)
+> - [Wireframes](#wireframes)
+> - [Features](#features)
+> - [Technologies Used](#technologies-used)
+> - [Resources](#resources)
+> - [Bugs and Fixes](#bugs-and-fixes)
+> - [Testing](#testing)
+> - [Aditional Testing](#aditional-testing)
+> - [Deployment](#deployment)
+> - [Credits](#credits)
+> - [Acknowledgements](#acknowledgements)
 
 ## UX
 
@@ -112,7 +127,7 @@ The site's purpose is to help users book their next holiday and enjoy their time
 
 The website consists of 5 pages. All accessible from the navigation menu.
 
-## Navigation Bar
+### Navigation Bar
 
 * Navigation bar is fixed to the top of each page, which gives the user the option to return or move to another page easily. It will adapt to mobile devices by changing into a burger menu.
 
@@ -628,3 +643,4 @@ no syntax errors in the project.
 -   The team at Code Institute, for teaching me the necessary skills to create this site.
 -   [w3schools](https://www.w3schools.com/default.asp) for all the useful information found on the site.
 -   [Dev Ed](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q) - for all the helpful tutorials on JavaScript.
+-   [Stackoverflow](https://stackoverflow.com/) - for general needs
