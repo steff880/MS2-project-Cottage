@@ -644,3 +644,9 @@ no syntax errors in the project.
 -   [w3schools](https://www.w3schools.com/default.asp) for all the useful information found on the site.
 -   [Dev Ed](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q) - for all the helpful tutorials on JavaScript.
 -   [Stackoverflow](https://stackoverflow.com/) - for general needs
+
+
+### Note for the assessors
+
+- **Please note that while trying to commit as often as possible, not sure if all my commits will reflect the changes made. 
+    This is due to Gitpod having some issues during the development process of my site. Thank you!**
