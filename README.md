@@ -197,6 +197,18 @@ The website consists of 5 pages. All accessible from navigation menu.
 
 ---
 
+## Resources
+
+- [Code Institute Course Content](https://courses.codeinstitute.net/)
+
+- [Stack Overflow](https://stackoverflow.com/) - General resource
+
+- [YouTube](https://www.youtube.com/) - General resource
+
+- [Am I Responsive](http://ami.responsivedesign.is/) - Responsive website mockup image generator
+
+- [Dev Ed](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q) - Help with JS animation tutorial
+
 ## Bugs and Fixes
 
 -   ### Bug
@@ -272,18 +284,64 @@ no syntax errors in the project.
     - **Please note that code for text animation has few global variables. Code taken from 
         external resource and done exactly as shown on the [tutorial](https://www.youtube.com/watch?v=GUEB9FogoP8), in oreder to keep functionality and 
         only names of the variables are changed to fit project needs.**
+
 ### Testing User Stories
 
 
--   #### First Time Visitor Goals
+  #### First Time Visitor Goals
+
+- Be able to clearly understand the purpose of the site.
+
+    - When first entering the website users are greeted with a welcome animation, 
+        followed by a image of cottages in snowy environment. Also button which can take the to Cottages page.
+    The main points are made immediately on the Home page as to the site's purpose.
+
+- Be able to navigate easily through the website
+
+    - User can navigate to any page of the site at any moment due to fixed navigation bar. 
+
+- Find more information about the site
+
+    - Users can find more information when navigating to About page.
+
+#### Testing Navigation
+
+<table>
+    <tr>
+        <th>Test</th>
+        <th>Expected Outcome</th>
+        <th>Result</th>
+    </tr>
+    <tr>
+        <td>Home</td>
+        <td>When clicked on Home, takes us to Home page</td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>About</td>
+        <td>When clicked on About, takes us to About page</td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Cottages</td>
+        <td>When clicked on Cottages, takes us to Cottages page</td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Book Now</td>
+        <td>When clicked on Book Now, takes us to Book Now page</td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Contact</td>
+        <td>When clicked on Contact, takes us to Contact page</td>
+        <td>Pass</td>
+    </tr>
+</table>
 
 
 
 
--   #### Returning Visitor Goals
-
-
--   #### Frequent User Goals
 
 
 ### Additional Testing
