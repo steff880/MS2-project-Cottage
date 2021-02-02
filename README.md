@@ -434,6 +434,40 @@ no syntax errors in the project.
     </tr>
 </table>
 
+#### Testing Forms
+
+ <table>
+    <tr>
+        <th>Test</th>
+        <th>Expected Outcome</th>
+        <th>Result</th>
+    </tr>
+    <tr>
+        <td>Form</td>
+        <td>Receive an notification if user tries to submit without filling in required fields</td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Nights to stay</td>
+        <td>Be able to choose how many nights to stay</td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Start date</td>
+        <td>Be able to choose start date</td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>End date</td>
+        <td>Be able to choose end date</td>
+        <td>Pass</td>
+    </tr>
+</table>
+
+- **Please note that, when tested _Choose start date_ and _Choose end date_ input fields, found that
+    you are able to submit even when choosing start date to be later than end date. This will be
+    corrected in future updates. Maybe it would have been better instead of having to choose start date and end date,
+    just to choose start date. As there is an input field for how many nights user will stay.**
 
 
 
