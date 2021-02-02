@@ -7,6 +7,8 @@ This is a website, where users can book a Cottage.
 
 The site's purpose is to help users book their next holiday and enjoy their time off, at a nice and warm Cottage.
 
+[View Live Site Here](https://steff880.github.io/MS2-project-Cozy-Cottage/)
+
 ## Table of Contents
 
 > - [UX](#ux)
@@ -650,3 +652,8 @@ no syntax errors in the project.
 
 - **Please note that while trying to commit as often as possible, not sure if all my commits will reflect the changes made. 
     This is due to Gitpod having some issues during the development process of my site. Thank you!**
+
+
+>  [Back to Table of Contents](#table-of-contents)
+
+---
