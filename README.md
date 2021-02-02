@@ -5,7 +5,7 @@
 
 This is a website, where users can book a Cottage.
 
-Site's purpose is to help users book their next holiday and enjoy their time off, at a nice and warm Cottage.
+The site's purpose is to help users book their next holiday and enjoy their time off, at a nice and warm Cottage.
 
 
 ## UX
@@ -27,13 +27,13 @@ Site's purpose is to help users book their next holiday and enjoy their time off
 
 -   #### Returning Visitor Goals
 
-    As a returnig user, I would like to:
+    As a returning user, I would like to:
 
     1. See images of cottages on the inside and out.
 
     2. Find a booking form and contact form.
 
-    3. Be able to choose start date and end date of my holiday.
+    3. Be able to choose the start date and end date of my holiday.
 
     4. See how much would it cost to rent a cottage.
 
@@ -49,14 +49,14 @@ Site's purpose is to help users book their next holiday and enjoy their time off
 
     1. See if, there are any new offers currently on.
 
-    2. See if, there are any layout changes and if the site is still easy to navigate after.
+    2. See if there are any layout changes and if the site is still easy to navigate after.
 
 
 -   ### Design
 
     -   #### Colour Scheme
 
-        - Main colours used are "Black, White, Orange, Blue"
+        - Main colors used are "Black, White, Orange, Blue"
 
         - Contact page background from [CSS Gradient](https://cssgradient.io/gradient-backgrounds/)
 
@@ -110,23 +110,22 @@ Site's purpose is to help users book their next holiday and enjoy their time off
 
 ## Features
 
-The website consists of 5 pages. All accessible from navigation menu.
+The website consists of 5 pages. All accessible from the navigation menu.
 
 ## Navigation Bar
 
-* Navigation bar is fixed to the top of each page, which gives the user the option to return,
-    or move to another page easily. It will adapt to mobile devices by changing into a burger menu.
+* Navigation bar is fixed to the top of each page, which gives the user the option to return or move to another page easily. It will adapt to mobile devices by changing into a burger menu.
 
 * Navigation:
 
-    - On the left there is the site's logo, which can be used to navigate to **Home** page at any moment.
-    - On the right side there are 5 links to each page. If viewed on mobile device, those will drop down,
-        when clicked on burger menu.
+    - On the left, there is the site's logo, which can be used to navigate to the **Home** page at any moment.
+    - On the right side there are 5 links to each page. If viewed on a mobile device, those will drop down,
+        when clicked on the burger menu.
 
 ### Home page
 
 - User is greeted with welcome animation
-- Has a background image and also greeting text, and a button to navigate to **Cottages** page.
+- Has a background image and also greeting text, and a button to navigate to the **Cottages** page.
 
 ### About
 
@@ -134,19 +133,17 @@ The website consists of 5 pages. All accessible from navigation menu.
 
 ### Cottages
 
-- Has two cards with images of cottages, text and button to learn more. 
-    When the user clicks learn more button, there will be displayed more information of the cottages and 
-    also a carousel with images. Under each carousel there is a button which will take the user to Book Now page.
-    Also there is google maps, which helps the user to see where the Cottages are located.
+- Has two cards with images of cottages, text, and a button to learn more. 
+    When the user clicks learn more button, there will be displayed more information about the cottages and also a carousel with images. Under each carousel, there is a button that will take the user to Book Now page.
+    Also, there are google maps, which helps the user to see where the Cottages are located.
 
 ### Book Now
 
-- This pages has a background image and a form where the user can fill in there details and choose 
-    when to visit. Also a book now button.
+- This page has a background image and a form where the user can fill in their details and choose when to visit. Also a book now button.
 
 ### Contact
 
-- This page has a form and buttons submit and reset.
+- This page has a form and buttons to submit and reset.
 
 ### Footer
 
@@ -155,7 +152,7 @@ The website consists of 5 pages. All accessible from navigation menu.
 
 #### Features Left to Implement 
 
--   Add Attractions section, where user can find all the Attractions provided and choose to take advantage.
+-   Add Attractions section, where users can find all the Attractions provided and choose to take advantage.
 -   Add Login/Register section.
 -   Add more Cottages with different options.
 -   Add different locations.
@@ -213,14 +210,14 @@ The website consists of 5 pages. All accessible from navigation menu.
 
 -   ### Bug
 
-1. Issue with height on element with class "container-about-content", where it's child element was overflowing.
-    In result the background-color aplied did not cover the child element.
+1. Issue with height on the element with class "container-about-content", where its child element was overflowing.
+    As result, the background-color applied did not cover the child element.
 
-2. Issue with the width of the cards on Cottages page because of inline styling which came with bootsrap code.
+2. Issue with the width of the cards on Cottages page because of inline styling which came with bootstrap code.
 
-3. Issue with social links on Home page. On mobile view icons align on the left and did not look the same as on larger screens.
+3. Issue with social links on the Home page. On mobile view, icons align on the left and did not look the same as on larger screens.
 
-4. Issue with image on the cards of Cottages page. Image being streched when viewed on Iphone 5SE.
+4. Issue with an image on the cards of the Cottages page. The image is stretched when viewed on iPhone 5SE.
 
 -   ### Fix
 
@@ -238,15 +235,15 @@ The website consists of 5 pages. All accessible from navigation menu.
             min-height: 50vh;
         }
 
-2.  Remove the inline styling and add custom one.        
+2.  Remove the inline styling and add a custom one.        
 
-3. Fixed issue by positioning the icons at the bottom center of the page instead of left. To achieve this adedd properties to the parent element
+3. Fixed issue by positioning the icons at the bottom center of the page instead of left. To achieve this added properties to the parent element
      and amended the properties of the child element.
 
 4. Fix issue by removing "_margin: 0 auto;_" from class **_card-row_** and add "_margin-left and margin-right -10px_" to the same class and to the 
     **_cottages-heading-container_**, also reduce the padding of **_cottages-container_** from 15px to 10px. 
     Also add media qiery for xs devices and change the "_height_" of the class **_card-cottages_** form 650px to 600px.
-    Please note that the orientation of the images on the cards is **Portrait** not **Landscape** ! 
+    Please note that the orientation of the images on the cards is **Portrait**, not **Landscape**! 
 ## Testing
 ### W3C Validator Testing
 
@@ -259,8 +256,7 @@ no syntax errors in the project.
 
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-- One error found - Property backdrop-filter doesn't exist : blur(14px);. I used this property to add 
-    blurred effect on the cards behind the text. Used in Cottages page. Could not find a way around it.
+- One error found - Property backdrop-filter doesn't exist : blur(14px);. I used this property to add a blurred effect on the cards behind the text. Used in Cottages page. Could not find a way around it.
 - Warnings are either from vendor prefixes or bootstrap.
 
 ### [JSHint](https://jshint.com/)
@@ -281,9 +277,7 @@ no syntax errors in the project.
 
     - Result - Ten warnings for using _const_ and _let_
     
-    - **Please note that code for text animation has few global variables. Code taken from 
-        external resource and done exactly as shown on the [tutorial](https://www.youtube.com/watch?v=GUEB9FogoP8), in oreder to keep functionality and 
-        only names of the variables are changed to fit project needs.**
+    - **Please note that the code for text animation has few global variables. Code was taken from an external resource and done exactly as shown on the [tutorial](https://www.youtube.com/watch?v=GUEB9FogoP8), in order to keep functionality and only names of the variables are changed to fit project needs.**
 
 ### Testing User Stories
 
@@ -293,16 +287,16 @@ no syntax errors in the project.
 - Be able to clearly understand the purpose of the site.
 
     - When first entering the website users are greeted with a welcome animation, 
-        followed by a image of cottages in snowy environment. Also button which can take the to Cottages page.
+        followed by an image of cottages in a snowy environment. Also, a button that can take the users to the Cottages page.
     The main points are made immediately on the Home page as to the site's purpose.
 
 - Be able to navigate easily through the website
 
-    - User can navigate to any page of the site at any moment due to fixed navigation bar. 
+    - User can navigate to any page of the site at any moment due to a fixed navigation bar. 
 
 - Find more information about the site
 
-    - Users can find more information when navigating to About page.
+    - Users can find more information when navigating to the About page.
 
 #### Testing Navigation
 
@@ -464,10 +458,8 @@ no syntax errors in the project.
     </tr>
 </table>
 
-- **Please note that, when tested _Choose start date_ and _Choose end date_ input fields, found that
-    you are able to submit even when choosing start date to be later than end date. This will be
-    corrected in future updates. Maybe it would have been better instead of having to choose start date and end date,
-    just to choose start date. As there is an input field for how many nights user will stay.**
+- **Please note that when tested _Choose start date_ and _Choose end date_ input fields, found that you are able to submit even when choosing a start date to be later than the end date. This will be corrected in future updates. Maybe it would have been better instead of having to choose the start date and end date,
+    just to choose a start date. As there is an input field for how many nights the user will stay.**
 
 
 
@@ -495,7 +487,7 @@ no syntax errors in the project.
         -  When tested on Firefox found the following error:
             
             - On Cottages page the property backdrop-filter: blur(14px); doesn't work. 
-                Due to this, the background of the card body is not blured. It does not affect readability and still looks good.
+                Due to this, the background of the card body is not blurred. It does not affect readability and still looks good.
 
     -   Internet Explorer
 
@@ -503,26 +495,24 @@ no syntax errors in the project.
 
             - Home page:
 
-                - Text is pushed to the left. Also the transition efect on the social links does not work 
-                    propperly.
+                - Text is pushed to the left. Also, the transition effect on the social links does not work properly.
 
             -   About page:
 
-                - The layout is broken. Text is squeezed in the middle of the screen. Also the background colour is gone 
-                    and social link are pushed to the left.
+                - The layout is broken. Text is squeezed in the middle of the screen. Also, the background color is gone and social links are pushed to the left.
 
             -   Cottages page:
 
                 - Cards are pushed to the left. The card body is squeezed to the right of the card.
-                    Social links pushed to the left.        
+                    Social links are pushed to the left.        
 
             - Book Now page:
 
-                - Form and input background is does not exist. Social links pushed to the left.        
+                - Form and input background does not exist. Social links are pushed to the left.        
 
             - Contact page:
 
-                - Form and heading slightly pushed up and social links to the left. Also submit button has no background.
+                - Form and heading slightly pushed up and social links to the left. Also, submit button has no background.
            
 
     -   Tested on Chrome using different devices via google chrome device emulators and all works fine.
