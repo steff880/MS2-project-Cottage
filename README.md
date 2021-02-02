@@ -409,6 +409,32 @@ no syntax errors in the project.
     </tr>   
 </table>
 
+#### Testing site's responsiveness
+
+<table>
+    <tr>
+        <th>Test</th>
+        <th>Expected Outcome</th>
+        <th>Result</th>
+    </tr>
+    <tr>
+        <td>Mobile</td>
+        <td>Site is  responsive on mobile devices</td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Tablet</td>
+        <td>Site is responsive on tablet devices</td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Desktop</td>
+        <td>Site is responsive when viewed on large screen devices</td>
+        <td>Pass</td>
+    </tr>
+</table>
+
+
 
 
 
