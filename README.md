@@ -268,6 +268,10 @@ no syntax errors in the project.
 -   Testing contact.js:
 
     - Result - Ten warnings for using _const_ and _let_
+    
+    - **Please note that code for text animation has few global variables. Code taken from 
+        external resource and done exactly as shown on the [tutorial](https://www.youtube.com/watch?v=GUEB9FogoP8), in oreder to keep functionality and 
+        only names of the variables are changed to fit project needs.**
 ### Testing User Stories
 
 
