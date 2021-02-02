@@ -339,6 +339,46 @@ no syntax errors in the project.
     </tr>
 </table>
 
+#### Testing Buttons
+
+<table>
+    <tr>
+        <th>Test</th>
+        <th>Expected Outcome</th>
+        <th>Result</th>
+    </tr>
+    <tr>
+        <td>Cottages Button</td>
+        <td>When clicked on Cottages button, takes us to Cottages page</td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Learn More</td>
+        <td>When clicked on Learn More on Cottages page, expect to see more information displayed on screen</td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Book Now</td>
+        <td>When clicked on Book Now on Cottages page, takes us to Book Now page</td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Book Now</td>
+        <td>When clicked on Book Now on the book now form, submit form</td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Submit</td>
+        <td>When clicked on Submit on Contact page, submit form</td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Reset</td>
+        <td>When clicked on Reset, clear all input fields</td>
+        <td>Pass</td>
+    </tr>
+</table>
+
 
 
 
