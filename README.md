@@ -564,6 +564,21 @@ no syntax errors in the project.
 
 ## Credits
 
+### Code
+
+- [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/): Bootstrap Library used throughout the project mainly
+     to make the site responsive using the Bootstrap Grid System.
+
+- Home page animation [Dev Ed](https://www.youtube.com/watch?v=sN93DRYkCO8)     
+
+- [Email Validation](https://www.youtube.com/watch?v=HzJngc-Se9Q)
+
+- Text animation [Dev Ed](https://www.youtube.com/watch?v=GUEB9FogoP8)
+
+- [Code Institute tutorial on emailjs](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/03d3f6524ad249d9b33e3336d156dfd0/e4710f80cdf34bffbd607bc102482d5c/)
+
+- [Map](https://developers.google.com/maps/documentation/javascript/adding-a-google-map)
+
 
 ### Imges 
 
@@ -606,3 +621,10 @@ no syntax errors in the project.
 - Book Now
 
     - [Photo by Robson Hatsukami Morgan on Unsplash](https://unsplash.com/photos/5C6veSN6hec)
+
+### Acknowledgements
+
+-   My mentor, Adegbenga Adeye, for his guidance and feedback.
+-   The team at Code Institute, for teaching me the necessary skills to create this site.
+-   [w3schools](https://www.w3schools.com/default.asp) for all the useful information found on the site.
+-   [Dev Ed](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q) - for all the helpful tutorials on JavaScript.
