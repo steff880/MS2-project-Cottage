@@ -223,6 +223,8 @@ The website consists of 5 pages. All accessible from the navigation menu.
 
 - [Dev Ed](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q) - Help with JS animation tutorial
 
+- [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)
+
 ## Bugs and Fixes
 
 -   ### Bug
@@ -235,6 +237,9 @@ The website consists of 5 pages. All accessible from the navigation menu.
 3. Issue with social links on the Home page. On mobile view, icons align on the left and did not look the same as on larger screens.
 
 4. Issue with an image on the cards of the Cottages page. The image is stretched when viewed on iPhone 5SE.
+
+5. When testing, found an issue with the form on Book Now page. When filling the form, the user has to choose both cottages, in order to submit the form.
+This is due to having a required attribute to both of the input elements. The issue will be resolved in future updates due to time constraints.
 
 -   ### Fix
 
@@ -638,6 +643,7 @@ no syntax errors in the project.
 - Book Now
 
     - [Photo by Robson Hatsukami Morgan on Unsplash](https://unsplash.com/photos/5C6veSN6hec)
+    - invalid.png and valid.png - downloaded from the link in the description of this [tutorial](https://www.youtube.com/watch?v=HzJngc-Se9Q)
 
 ### Acknowledgements
 
@@ -646,6 +652,7 @@ no syntax errors in the project.
 -   [w3schools](https://www.w3schools.com/default.asp) for all the useful information found on the site.
 -   [Dev Ed](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q) - for all the helpful tutorials on JavaScript.
 -   [Stackoverflow](https://stackoverflow.com/) - for general needs
+-   [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog) - for all the helpful tutorials.
 
 
 ### Note for the assessors
